@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux'
+import postsReducer from './postsReducer'
 
 export default combineReducers({
-    blabla: () => 'I dont have anything now!'
+    posts: postsReducer
 })
